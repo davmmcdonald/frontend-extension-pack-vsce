@@ -1,18 +1,22 @@
 {
   "name": "frontend-extension-pack",
   "displayName": "Front-End Extension Pack",
-  "description": "Some of the most popular (and some I find very useful) front-end extensions.",
-  "version": "0.0.01",
-  "publisher": "loiane",
+  "description": "A curated collection of popular and useful front-end extensions for Visual Studio Code.",
+  "version": "0.1.0",
+  "publisher": "davmmcdonald",
   "icon": "icon.png",
   "license": "MIT",
-  "repository": "https://github.com/loiane/frontend-extension-pack-vsce",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davmmcdonald/frontend-extension-pack-vsce"
+  },
+  "homepage": "https://github.com/davmmcdonald/frontend-extension-pack-vsce",
   "galleryBanner": {
     "color": "#1e415e",
     "theme": "dark"
   },
   "engines": {
-    "vscode": "^1.30.0"
+    "vscode": "^1.80.0"
   },
   "categories": [
     "Extension Packs"
@@ -20,7 +24,6 @@
   "keywords": [
     "Front-End",
     "Frontend",
-    "Front",
     "Web",
     "HTML",
     "JavaScript",
@@ -28,6 +31,7 @@
   ],
   "extensionPack": [
     "ritwickdey.liveserver",
+    "ms-vscode.live-server",
     "ecmel.vscode-html-css",
     "formulahendry.auto-rename-tag",
     "formulahendry.auto-close-tag",
@@ -35,13 +39,11 @@
     "streetsidesoftware.code-spell-checker",
     "esbenp.prettier-vscode",
     "EditorConfig.EditorConfig",
-    "msjsdiag.debugger-for-chrome",
     "dbaeumer.vscode-eslint",
     "wix.vscode-import-cost",
-    "HookyQR.beautify",
     "Zignd.html-css-class-completion",
     "christian-kohler.npm-intellisense",
     "christian-kohler.path-intellisense",
-    "shinnn.stylelint"
+    "stylelint.vscode-stylelint"
   ]
 }

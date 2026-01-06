@@ -1,76 +1,89 @@
-# VS Code Extension Pack for Front-End Development
+# Front-End Extension Pack
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/loiane.frontend-extension-pack.svg)](https://marketplace.visualstudio.com/items?itemName=loiane.frontend-extension-pack)
-[![Installs](https://vsmarketplacebadge.apphb.com/installs/loiane.frontend-extension-pack.svg)](https://marketplace.visualstudio.com/items?itemName=loiane.frontend-extension-pack)
+A curated collection of popular and useful Visual Studio Code extensions for front-end development.
 
-This extension pack packages some of the most popular (and some I find very useful) VS Code extensions for front-end development (framewors' agnostic).
+This extension pack bundles essential tools for working with HTML, CSS, and JavaScript, including live preview, IntelliSense, formatting, linting, and developer productivity utilities. It is framework-agnostic and suitable for beginners, students, and everyday front-end workflows.
+
+> This extension pack does not add new functionality by itself. Installing it will automatically install the extensions listed below.
+
+---
 
 ## Extensions Included
 
-### Preview/Live Server
+### Preview / Live Server
 
-* [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) - Launch a local development server with live reload feature for static & dynamic pages.
+- **Live Server**  
+  Launch a local development server with live reload support for static and dynamic pages.
 
-* [Browser Preview](https://marketplace.visualstudio.com/items?itemName=auchenberg.vscode-browser-preview) - A real browser preview inside your editor that you can debug. Can be used with JavaScript libs/frameworks such as React, Vue and Angular as well.
+- **Live Preview**  
+  A modern, Microsoft-maintained live preview experience for web projects inside VS Code.
+
+---
 
 ### IntelliSense / Snippets
 
-* [IntelliSense for CSS class names in HTML](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion) - CSS class name completion for the HTML class attribute based on the definitions found in your workspace.
+- **HTML CSS Support**  
+  CSS class and ID completion in HTML files.
 
-* [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css) - CSS class and and id attribute completion.
+- **IntelliSense for CSS class names in HTML**  
+  CSS class name completion based on definitions found in your workspace.
 
-* [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) - Auto rename paired HTML/XML tag.
+- **Auto Rename Tag**  
+  Automatically rename paired HTML/XML tags.
 
-* [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag) - Automatically add HTML/XML close tag, same as Visual Studio IDE or Sublime Text.
+- **Auto Close Tag**  
+  Automatically insert closing HTML/XML tags.
 
-* [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense) - Visual Studio Code plugin that autocompletes npm modules in import statements.
+- **JavaScript (ES6) Code Snippets**  
+  Code snippets for JavaScript (ES2015+) syntax.
 
-* [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) - VSCode has a very good auto import capability, but sometime you still need to import some files manually, and this extension helps a lot in these cases.
+- **npm IntelliSense**  
+  Autocomplete npm modules in import statements.
 
-* [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets) - Code snippets for JavaScript in ES6 (ES2015+) syntax.
+- **Path IntelliSense**  
+  Autocomplete file paths when importing modules or assets.
 
-* [Turbo Console Log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log) - This extension make debugging much easier by automating the operation of writing meaningful log message. Two steps: 
-  - 1) Selecting the variable which is the subject of the debugging. 
-  - 2) Pressing `ctrl + alt + L`
+---
 
-### Lint
+### Linting
 
-* [stylelint](https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint) - A Visual Studio Code extension to lint CSS/SCSS/Less with stylelint.
+- **ESLint**  
+  Integrates ESLint into VS Code for JavaScript (and TypeScript) linting.
 
-* [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - Integrates ESLint JavaScript into VS Code.
+- **Stylelint**  
+  CSS/SCSS/Less linting using Stylelint.  
+  > Requires a local Stylelint configuration in your project.
 
-### Formatters
+---
 
-* [Prettier - JavaScript formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - format your Javascript / Typescript / CSS Recommended settings:
-  - `"prettier.singleQuote": true` (this helps when using auto import extension or the VSCode auto import functionality).
-  - `"prettier.tabWidth": 2` (uses 2 spaces as default indentation). With this setting, you can continue using tabs if it is your preference
-  - `"prettier.useTabs": false` (same as above)
+### Formatting
 
-* [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify) - VS Code uses js-beautify internally, but it lacks the ability to modify the style you wish to use. This extension enables running js-beautify in VS Code, and honouring any `.jsbeautifyrc` file in the open file's path tree to load your code styling.  
+- **Prettier – Code Formatter**  
+  Opinionated code formatter for JavaScript, CSS, HTML, and more.
 
-* [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) - EditorConfig Support for Visual Studio Code (must have extension for VSCode).
+- **EditorConfig for VS Code**  
+  Enforces consistent coding styles across editors and IDEs.
+
+---
 
 ### Utilities
 
-* [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost) - Display import/require package size in the editor.
+- **Import Cost**  
+  Displays the size of imported packages inline in the editor.
 
-* [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) - A basic spell checker that works well with camelCase code. The goal of this spell checker is to help with catching common spelling errors while keeping the number of false positives low.
+- **Code Spell Checker**  
+  Spell checking for source code, optimized for camelCase identifiers.
 
-* [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) - Debug your JavaScript code in the Chrome browser, or any other target that supports the Chrome Debugger protocol.
+---
 
-## TypeScript extensions
+## Notes
 
-In this pack you will find extensions for JavaScript. If you enjoy using TypeScript, please check my TypeScript extension pack, it is a great complement for this package!
-* [TypeScript Extension Package](https://marketplace.visualstudio.com/items?itemName=loiane.ts-extension-pack)
+- JavaScript debugging is now built into VS Code and no longer requires a separate Chrome debugger extension.
+- Bracket pair colorization is also built into VS Code and does not require an additional extension.
+- Some extensions (such as linters) may require project-level configuration files to function correctly.
 
-### Other extensions recommended, but not included in this package
+---
 
-* [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) - This extension allows matching brackets to be identified with colours. Great when you have nested brackets. I usually keep this extension disabled and only enable it when needed.
+## License
 
-* [Git History (git log)](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory) - allows you to view git history with graph and details
-
-* [snippet-creator](https://marketplace.visualstudio.com/items?itemName=nikitaKunevich.snippet-creator) - helps you creating code snippets (saves snippets in the User Snippets in VSCode)
-
-Credit: Logo/Icon made by [Freepik](https://www.freepik.com/) from [www.flaticon.com](www.flaticon.com)
-
-**Enjoy!**
+MIT
